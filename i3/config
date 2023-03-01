@@ -192,7 +192,7 @@ assign [class="Google-chrome"] $ws1
 # assign [class="kitty"] $ws2
 assign [class="Code"] $ws3
 assign [class="Thunar"] $ws8
-assign [class="vlc"] $ws9
+# assign [class="vlc"] $ws9
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -204,6 +204,7 @@ for_window [class="^.*"] border pixel 1
 # i3 status
 bar {
         status_command i3status
+        # position top
 }
 
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
